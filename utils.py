@@ -159,5 +159,3 @@ def generateAudioStream(inference_model, indices_tones, chords):
     mf.close()
     
     return out_stream
-
-X, Y, num_unique_musical_val, indices_dict, chords = load_music_utils('data/training_sample_midi.mid')
